@@ -3,57 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Consultancy Hub</title>
+    <title>DevOps Cloud Consultancy</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #eef2f3;
-            color: #444;
+            background: linear-gradient(to bottom, #ffffff, #e5e7eb);
+            color: #222;
         }
 
         header {
-            background-color: #1f2937;
-            color: white;
-            padding: 20px 0;
+            background-color: #4f46e5;
+            color: #fff;
+            padding: 30px 0;
             text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.8rem;
+            font-size: 3rem;
         }
 
         header p {
             margin: 10px 0 0;
-            font-size: 1.2rem;
+            font-size: 1.25rem;
         }
 
         nav {
-            text-align: center;
             margin: 20px 0;
+            text-align: center;
         }
 
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #1f2937;
+            color: #4f46e5;
             font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         nav a:hover {
-            text-decoration: underline;
-            color: #3b82f6;
+            color: #2d2d86;
         }
 
         section {
-            padding: 20px;
+            padding: 40px 20px;
             margin: 20px auto;
-            max-width: 1200px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 1100px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
         }
 
         .hero {
@@ -61,48 +62,48 @@
         }
 
         .hero h2 {
-            color: #1f2937;
+            color: #4f46e5;
         }
 
         .hero img {
             max-width: 100%;
             height: auto;
+            border-radius: 12px;
             margin: 20px 0;
-            border-radius: 10px;
         }
 
         .services {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
         }
 
         .service {
             padding: 20px;
-            border: 1px solid #ddd;
+            background: #f3f4f6;
             border-radius: 8px;
             text-align: center;
-            background-color: #f9fafb;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
         }
 
         .service img {
             width: 100%;
-            max-height: 200px;
+            height: 150px;
             object-fit: cover;
             border-radius: 8px;
-            margin-bottom: 15px;
         }
 
         .service h3 {
-            color: #3b82f6;
+            color: #4f46e5;
+            margin: 15px 0;
         }
 
         footer {
-            background-color: #1f2937;
-            color: white;
+            background: #4f46e5;
+            color: #fff;
             text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
+            padding: 15px 0;
+            margin-top: 30px;
         }
 
         footer p {
@@ -112,48 +113,51 @@
 </head>
 <body>
     <header>
-        <h1>DevOps Consultancy Hub</h1>
-        <p>Your partner for DevOps, Cloud, and Managed Services</p>
+        <h1>DevOps Cloud Consultancy</h1>
+        <p>Expert solutions for your DevOps, Cloud, and Managed Services needs</p>
     </header>
 
     <nav>
-        <a href="#about">About Us</a>
+        <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <section class="hero" id="about">
-        <h2>Welcome to DevOps Consultancy Hub</h2>
-        <img src="https://via.placeholder.com/1200x400" alt="DevOps Consultancy Banner">
-        <p>We specialize in providing top-notch DevOps and Cloud consultancy services to businesses of all sizes. Whether you're looking to streamline your CI/CD pipelines, migrate to the cloud, or manage your IT infrastructure efficiently, we have you covered!</p>
+        <h2>Empowering Businesses with Technology</h2>
+        <img src="https://via.placeholder.com/1100x400" alt="Technology Solutions Banner">
+        <p>We deliver comprehensive DevOps and Cloud consultancy services, guiding businesses to achieve operational efficiency, scalability, and innovation. Join us to transform your IT strategy today.</p>
     </section>
 
-    <section class="services" id="services">
-        <div class="service">
-            <img src="https://via.placeholder.com/300x200" alt="DevOps Service">
-            <h3>DevOps & Cloud Consultancy</h3>
-            <p>Optimize your workflows with expert DevOps practices and unlock the full potential of cloud technologies for your business.</p>
-        </div>
-        <div class="service">
-            <img src="https://via.placeholder.com/300x200" alt="Programming Projects">
-            <h3>Basic Programming Projects</h3>
-            <p>We assist in designing and developing basic programming projects for businesses and individuals, tailored to your needs.</p>
-        </div>
-        <div class="service">
-            <img src="https://via.placeholder.com/300x200" alt="Managed Services">
-            <h3>Managed Services Provider</h3>
-            <p>Enjoy peace of mind with our reliable MSP services, including helpdesk support, infrastructure monitoring, and more.</p>
+    <section id="services">
+        <h2 style="text-align:center; margin-bottom:20px;">Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://via.placeholder.com/280x150" alt="DevOps Consultancy">
+                <h3>DevOps Expertise</h3>
+                <p>Streamline workflows with modern DevOps practices and enhance collaboration to achieve faster deployments.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/280x150" alt="Programming Projects">
+                <h3>Programming Projects</h3>
+                <p>From prototypes to solutions, we assist in crafting basic programming projects tailored to your requirements.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/280x150" alt="Helpdesk Support">
+                <h3>Managed IT Services</h3>
+                <p>Reliable helpdesk support and IT management services to ensure smooth operations round the clock.</p>
+            </div>
         </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or need a custom solution? Reach out to us today!</p>
-        <p>Email: info@devopsconsultancyhub.com | Phone: +123 456 7890</p>
+        <h2 style="text-align:center; margin-bottom:20px;">Get in Touch</h2>
+        <p style="text-align:center;">Need assistance or a custom solution? We're here to help. Contact us today!</p>
+        <p style="text-align:center;">Email: contact@devopsconsultancyhub.com | Phone: +123 456 7890</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 DevOps Consultancy Hub. All rights reserved.</p>
+        <p>&copy; 2025 DevOps Cloud Consultancy. Your trusted partner in IT solutions.</p>
     </footer>
 </body>
 </html>
