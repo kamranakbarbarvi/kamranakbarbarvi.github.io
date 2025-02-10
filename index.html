@@ -1,3 +1,139 @@
-This is my testing web page.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Consultancy Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-Kamran Akbar
+        header {
+            background-color: #2d89ef;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2d89ef;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero h2 {
+            color: #2d89ef;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .service h3 {
+            color: #2d89ef;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DevOps Consultancy Hub</h1>
+        <p>Your partner for DevOps, Cloud, and Managed Services</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="about">
+        <h2>Welcome to DevOps Consultancy Hub</h2>
+        <p>We specialize in providing top-notch DevOps and Cloud consultancy services to businesses of all sizes. Whether you're looking to streamline your CI/CD pipelines, migrate to the cloud, or manage your IT infrastructure efficiently, we have you covered!</p>
+    </section>
+
+    <section class="services" id="services">
+        <div class="service">
+            <h3>DevOps & Cloud Consultancy</h3>
+            <p>Optimize your workflows with expert DevOps practices and unlock the full potential of cloud technologies for your business.</p>
+        </div>
+        <div class="service">
+            <h3>Basic Programming Projects</h3>
+            <p>We assist in designing and developing basic programming projects for businesses and individuals, tailored to your needs.</p>
+        </div>
+        <div class="service">
+            <h3>Managed Services Provider</h3>
+            <p>Enjoy peace of mind with our reliable MSP services, including helpdesk support, infrastructure monitoring, and more.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need a custom solution? Reach out to us today!</p>
+        <p>Email: info@devopsconsultancyhub.com | Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DevOps Consultancy Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
