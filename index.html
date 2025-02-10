@@ -9,12 +9,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #eef2f3;
+            color: #444;
         }
 
         header {
-            background-color: #2d89ef;
+            background-color: #1f2937;
             color: white;
             padding: 20px 0;
             text-align: center;
@@ -22,7 +22,7 @@
 
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
         }
 
         header p {
@@ -38,12 +38,13 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #2d89ef;
+            color: #1f2937;
             font-weight: bold;
         }
 
         nav a:hover {
             text-decoration: underline;
+            color: #3b82f6;
         }
 
         section {
@@ -52,7 +53,7 @@
             max-width: 1200px;
             background-color: white;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .hero {
@@ -60,7 +61,14 @@
         }
 
         .hero h2 {
-            color: #2d89ef;
+            color: #1f2937;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
         }
 
         .services {
@@ -74,15 +82,23 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
-            background-color: #f9f9f9;
+            background-color: #f9fafb;
+        }
+
+        .service img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
         }
 
         .service h3 {
-            color: #2d89ef;
+            color: #3b82f6;
         }
 
         footer {
-            background-color: #333;
+            background-color: #1f2937;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -108,19 +124,23 @@
 
     <section class="hero" id="about">
         <h2>Welcome to DevOps Consultancy Hub</h2>
+        <img src="https://via.placeholder.com/1200x400" alt="DevOps Consultancy Banner">
         <p>We specialize in providing top-notch DevOps and Cloud consultancy services to businesses of all sizes. Whether you're looking to streamline your CI/CD pipelines, migrate to the cloud, or manage your IT infrastructure efficiently, we have you covered!</p>
     </section>
 
     <section class="services" id="services">
         <div class="service">
+            <img src="https://via.placeholder.com/300x200" alt="DevOps Service">
             <h3>DevOps & Cloud Consultancy</h3>
             <p>Optimize your workflows with expert DevOps practices and unlock the full potential of cloud technologies for your business.</p>
         </div>
         <div class="service">
+            <img src="https://via.placeholder.com/300x200" alt="Programming Projects">
             <h3>Basic Programming Projects</h3>
             <p>We assist in designing and developing basic programming projects for businesses and individuals, tailored to your needs.</p>
         </div>
         <div class="service">
+            <img src="https://via.placeholder.com/300x200" alt="Managed Services">
             <h3>Managed Services Provider</h3>
             <p>Enjoy peace of mind with our reliable MSP services, including helpdesk support, infrastructure monitoring, and more.</p>
         </div>
